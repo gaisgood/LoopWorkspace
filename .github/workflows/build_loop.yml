@@ -34,6 +34,8 @@ jobs:
         run: |
         
           /bin/bash -c "$(curl -fsSL \
+          https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
+          customtypeone_looppatches
           
           # For each patch, edit comment line (keep the #) then update curl (and remove the #)
 
